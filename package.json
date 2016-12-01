@@ -1,0 +1,17 @@
+{
+  "name": "ifetch",
+  "version": "1.0.0",
+  "description": "A tiny fetch lib to use ajax based on promise",
+  "keywords": [
+    "ajax",
+    "fetch",
+    "promise",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icecreamliker/ifetch"
+  },
+  "author": "Lee Yao <yaoli111144@gmail.com>",
+  "license": "MIT"
+}
