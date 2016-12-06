@@ -1,7 +1,7 @@
 # ifetch
 > A tiny fetch lib to use ajax based on promise
 
-Installation
+Install
 ---
 
 ```
@@ -11,10 +11,12 @@ Installation
 Usage
 ---
 
-Add the paths to configuration:
+Extending some common configurations based on *ifetch*:
 
 ```javascript
 // Usage
+const request = require('ifetch');
+
 function errHandler(err) {
   if (err.status === 401) {
     window.location = '/auth/logout';
