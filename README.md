@@ -30,7 +30,7 @@ let fetch = {};
 
 ['get', 'post', 'put', 'delete'].forEach((m) => {
   fetch[m] = function(options) {
-    var opt = Object.assign({
+    let opt = Object.assign({
       dataType: 'json',
       contentType: 'application/json',
       headers: {
